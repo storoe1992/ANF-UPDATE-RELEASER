@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ANFUpdateReleaser.jnlp">
+  <information>
+    <title>ANFUpdateReleaser</title>
+    <vendor>Sergio</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="8.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ANFUpdateReleaser.jar" size="203959" download="eager" />
+    <jar href="lib/com.fasterxml.jackson.core.jackson-annotations_2.5.2.jar" size="50469" download="eager" />
+    <jar href="lib/com.fasterxml.jackson.core.jackson-core_2.5.2.jar" size="243986" download="eager" />
+    <jar href="lib/com.fasterxml.jackson.core.jackson-databind_2.5.2.jar" size="1200647" download="eager" />
+    <jar href="lib/com.fasterxml.jackson.dataformat.jackson-dataformat-xml_2.5.2.jar" size="103633" download="eager" />
+    <jar href="lib/com.fasterxml.jackson.datatype.jackson-datatype-jsr353_2.5.2.jar" size="21409" download="eager" />
+    <jar href="lib/commons-io-2.4.jar" size="185140" download="eager" />
+    <jar href="lib/hazelcast-all-3.6.3.jar" size="8088368" download="eager" />
+    <jar href="lib/json-simple-1.1.1.jar" size="23343" download="eager" />
+    <jar href="lib/mail-1.4.7.jar" size="521157" download="eager" />
+    <jar href="lib/netty-buffer-4.1.1.Final.jar" size="248267" download="eager" />
+    <jar href="lib/netty-codec-4.1.1.Final.jar" size="299190" download="eager" />
+    <jar href="lib/netty-codec-dns-4.1.1.Final.jar" size="49907" download="eager" />
+    <jar href="lib/netty-codec-http-4.1.1.Final.jar" size="535103" download="eager" />
+    <jar href="lib/netty-codec-http2-4.1.1.Final.jar" size="338732" download="eager" />
+    <jar href="lib/netty-common-4.1.1.Final.jar" size="624025" download="eager" />
+    <jar href="lib/netty-handler-4.1.1.Final.jar" size="284168" download="eager" />
+    <jar href="lib/netty-handler-proxy-4.1.1.Final.jar" size="20549" download="eager" />
+    <jar href="lib/netty-resolver-4.1.1.Final.jar" size="25631" download="eager" />
+    <jar href="lib/netty-resolver-dns-4.1.1.Final.jar" size="63563" download="eager" />
+    <jar href="lib/netty-transport-4.1.1.Final.jar" size="414748" download="eager" />
+    <jar href="lib/vertx-bridge-common-3.3.2.jar" size="7635" download="eager" />
+    <jar href="lib/vertx-codegen-3.3.2.jar" size="169392" download="eager" />
+    <jar href="lib/vertx-core-3.3.2.jar" size="1086455" download="eager" />
+    <jar href="lib/vertx-docgen-3.3.2.jar" size="38657" download="eager" />
+    <jar href="lib/vertx-hazelcast-3.3.2.jar" size="39440" download="eager" />
+    <jar href="lib/vertx-service-discovery-3.3.2.jar" size="180156" download="eager" />
+    <jar href="lib/vertx-service-proxy-3.3.2.jar" size="15258" download="eager" />
+    <jar href="lib/vertx-stack-manager-3.3.2.jar" size="5365115" download="eager" />
+    <jar href="lib/vertx-tcp-eventbus-bridge-3.3.2.jar" size="31207" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ANFUpdateReleaser" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="anf.updatereleaser.main.ANFUpdateReleaserMain"  name="ANFUpdateReleaser" />
+  <update check="always"/>
+</jnlp>
